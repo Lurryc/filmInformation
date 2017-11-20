@@ -1,0 +1,205 @@
+
+body > div{
+	margin:0 auto;
+	width:960px;
+}
+#header{
+	height:254px;
+	background:url("../pic/1497693757.jpg") no-repeat;
+	border-bottom:2px solid #ffc012;
+	background-size:cover;
+	z-index:2;
+	position:fixed;
+	width:960px;
+}
+/*导航栏*/
+#nav{
+	margin-top:20px;
+	width:960px;
+	position:fixed;
+	z-index:10;
+}
+#nav>img{
+	float:left;	
+}
+#nav>ul{
+	float:right;
+	color:#fff;
+}
+#nav>ul>li{
+	float:left;
+	margin-left:30px;
+}
+
+/*预览图*/
+#product-details{
+	padding:0 3.8%;
+	box-sizing:border-box;
+	background:url("../pic/1496393315.jpg") no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:0;
+}
+div.preview{
+	width:33.9%;
+	float:left;
+}
+div.preview>div{
+	width:100%;
+	height:210px;
+	overflow:hidden;
+}
+ul.sm{
+	margin-top:16px;
+	text-align:center;
+	width:100%;
+}
+ul img{
+	width:100%;
+}
+ul.lg{
+	position:relative;
+	transition:all 0.3s linear;
+	right:0;
+}
+ul.lg li{	
+	float:left;
+	width:300px;
+}
+ul.sm li{
+	width:52px;
+	display:inline-block;
+	border:2px solid transparent;
+	cursor:pointer;
+}
+ul.sm li:hover{
+	border:2px solid #ffc012;
+
+}
+/*购买详情*/
+div.show-details{
+	width:53%;
+	float:left;
+	color:#fff;
+	margin-left:40px
+}
+p.show_title{
+	font-size:16px;
+	line-height:36px;
+}
+ul.show_date>li{
+	float:left;
+	line-height:30px;
+}
+p.show_article{
+	line-height:21px;
+}
+p.price{
+	font-size:22px;
+	line-height:36px;
+	color:#ffc012;
+}
+ul.ticket_class>li{
+	float:left;
+	margin:12px;
+}
+ul.ticket_class>li>a{
+	padding:6px;
+	border:1px solid #fff;
+	border-radius:8px;
+}
+ul.ticket_class>li:hover>a{
+	background:#ffc012;
+}
+ul.ticket_count>li,
+ul.buy>li{
+	float:left;
+	margin:18px 0px;
+}
+ul.ticket_count>li>a,ul.ticket_count>li>span{
+	border:1px solid #fff;
+	padding:8px;
+}
+ul.ticket_count>li:nth-child(2)>a{
+	padding:8px 22px;
+}
+p.total_count{
+	line-height:18px;
+}
+ul.buy>li>a{
+	padding:8px 22px;
+}
+ul.buy>li:nth-child(1)>a{
+	background:#f96868
+}
+ul.buy>li:nth-child(2)>a{
+	background:#ffc012;
+	margin-left:26px;
+}
+div.info{
+	float:left;
+	width:67.66%;
+}
+ul.info_nav{
+	color:#fff;
+}
+ul.info_nav>li{
+	float:left;
+	padding:20px 10px;
+	border-bottom:1px solid #ffc012;
+	z-index:2;
+}
+
+div.info>p{
+	position:relative;
+	border-top:1px solid #fff;
+	z-index:0;
+	padding-top:12px;
+}
+div.info>p>img{
+	width:100%;
+}
+/*热门推荐*/
+div.banner{
+	float:left;
+	margin-left:54px;
+}
+div.banner>p{
+	color:#fff;
+}
+div.banner li{
+	margin-top:10px;
+	color:#fff;
+}
+div.banner li>p{
+	line-height:18px;
+	text-align:center;
+}
+div.banner li>p:nth-child(3){
+	color:#ffc012;
+}
+div.banner img{
+	width:146px;
+	display:block;
+}
+/* 页脚 */
+#footer{
+	background:#000;
+}
+ul.connectUs{
+	padding-left:12px;
+}
+ul.connectUs>li{
+	float:left;
+	color:#fff;	
+	margin-top:18px;
+}
+ul.connectUs>li>a{
+	padding:0 4px;
+}
+ul.connectUs>li:nth-child(1)>a{
+	padding-left:0px;
+}
+p.copyright{
+	margin:10px 0 20px 0;
+}
